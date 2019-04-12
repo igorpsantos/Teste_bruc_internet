@@ -1,0 +1,86 @@
+/*
+*
+* @author Igor Pereira
+* @version 0.1
+*/
+
+/* ============================== layout =================================== */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.container {
+    height: 20em;
+    position: relative }
+div.container h3 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+
+#corpo{
+
+    width: 100%;
+    height: 600px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-bottom: 0; 
+    margin-right: auto;
+    background-color: white;
+    
+}
+
+#cabecalho{
+    width: 100%;
+    height: 25px;
+    background-color: rgb(206, 5, 5);
+}
+
+#conteudo{
+    width: 100%;
+    height: 582px;
+}
+
+#rodape{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(206, 5, 5);
+}
+
+/*================================== TIPOGRAFIA =================================================*/
+
+#fonte{
+    font-size: 50px;
+}
+
+
+
+/*================================= MEDIA QUERIES ================================================*/
+
+@media screen and (max-width: 480px){
+    #fonte{
+        font-size: 20px;
+    }  
+
+}
+
+@media screen and (max-width: 767px){
+    #fonte{
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 979px){
+    #fonte{
+        font-size: 45px;    
+    }
+}
+
+@media screen and (min-width: 1200){
+    #fonte{
+        font-size: 100px;
+    }
+}
