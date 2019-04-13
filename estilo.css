@@ -17,6 +17,61 @@ nav {
 .alinhamento{
     padding: 5px;
 }
+
+
+div.container2 {
+    height: 10em;
+    position: relative }
+div.container2 h3 {
+    margin: 0;
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+
+#conteudo-principal{
+    width: 1000px;
+    height: 550px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-bottom: 0;
+    margin-right: auto;
+    background-color: white;
+}
+#conteudo-meio{
+    width: 1000px;
+    height: 300px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-bottom: 0;
+    margin-right: auto;
+    background-color: white;
+}
+
+#rodape{
+    margin: auto;
+    height: 50px;
+    background-color: rgb(206,5,5);
+}
+
+.container img{
+    margin-top: -20px;  
+    max-width: 220px;
+    max-height: 220px;
+    width: auto;
+    height: auto;
+}
+
+
+.imagens{
+    margin-top: -100px;
+    max-width: 220px;
+    max-height: 220px;
+    width: auto;
+    height: auto;
+}
+
 /*================================== TIPOGRAFIA =================================================*/
 
 .cortexto{
@@ -32,26 +87,90 @@ nav {
 /*================================= MEDIA QUERIES ================================================*/
 
 @media screen and (max-width: 480px){
+    #conteudo-principal{
+        width: 400px;
+        height: 355px;
+        margin-top: 0;
+        margin-left: auto;
+        margin-bottom: 0;
+        margin-right: auto;
+        background-color: white;
+    }
+    #conteudo-meio{
+        width: 400px;
+        height: 150px;
+        margin-top: 0;
+        margin-left: auto;
+        margin-bottom: 0;
+        margin-right: auto;
+        background-color: white;
+    }
+    .container img{
+        margin-top: -20px;  
+        max-width: 180px;
+        max-height: 180px;
+        width: auto;
+        height: auto;
+    }
     #fonte{
         font-size: 20px;
+    }
+    #rodape{
+        width: auto;
+        height: 50px;
+        margin-bottom: 0;
     }  
 
 }
 
 @media screen and (max-width: 767px){
-    #fonte{
-        font-size: 30px;
+    #conteudo-principal{
+        width: 700px;
+        height: 450px;
     }
+    #conteudo-meio{
+        width: 700px;
+        height: 150px;
+    }
+    .container img{
+        margin-top: -20px;;  
+        max-width: 300px;
+        max-height: 100px;
+        width: auto;
+        height: auto;
+    }
+    #fonte{
+        font-size: 40px;
+    }
+    #rodape{
+        width: auto;
+        height: 50px;
+        margin-bottom: 0;
+    }  
 }
 
 @media (min-width: 768px) and (max-width: 979px){
-    #fonte{
-        font-size: 45px;    
+    #conteudo-principal{
+        width: 700px;
+        height: 450px;
     }
-}
-
-@media screen and (min-width: 1200){
+    #conteudo-meio{
+        width: 700px;
+        height: 150px;
+    }
+    .container img{
+        margin-top: -20px;;  
+        max-width: 300px;
+        max-height: 100px;
+        width: auto;
+        height: auto;
+    }
     #fonte{
-        font-size: 100px;
-    }    
+        font-size: 40px;
+    }
+    #rodape{
+        width: auto;
+        height: 50px;
+        margin-bottom: 0;
+    }  
 }
